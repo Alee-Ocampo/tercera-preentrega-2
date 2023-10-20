@@ -1,0 +1,91 @@
+@media (min-width: 320px) {
+    body {
+    background-color: rgb(0, 0, 0);
+    }
+
+    header {
+    text-align: center;
+    }
+
+    .narbar {
+    background-color: black;
+    }
+
+    nav ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    }
+
+    a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+    &:hover {
+        color: hotpink;
+    }
+    }
+
+    h3 {
+    color: red;
+    text-align: center;
+    }
+    h4 {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin: 30px;
+    }
+
+    img {
+    border-radius: 20px;
+    }
+
+    .text {
+    text-align: center;
+    padding-left: 20px;
+    }
+
+    .nosotros1, .nosotros2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    }
+
+    p {
+    text-align: center;
+    color: rgb(250, 246, 246);
+    }
+
+    .reser-2 {
+    color: white;
+    padding: 15px;
+    }
+
+    .dt-p {
+    color: red;
+    padding: 10px;
+    }
+
+    .tarjetas {
+    grid-template-columns: 1fr;
+    margin: 10px 15px 15px 10px;
+    }
+
+    h6 {
+    text-align: center;
+    }
+
+    footer {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .direc {
+    color: white;
+    margin-top: 40px;
+    }
+}

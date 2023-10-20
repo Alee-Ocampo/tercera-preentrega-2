@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+    body {
+    background-color: black;
+    }
+
+    nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    }
+
+    a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+    &:hover {
+        color: hotpink;
+    }
+    }
+
+    h3 {
+    color: red;
+    }
+
+    p {
+    text-align: center;
+    color: rgb(247, 244, 244);
+    }
+
+    .nos-otros {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+
+    .nosotros1, .nosotros2 {
+    display: flex;
+    text-align: center;
+    }
+
+    h6 {
+    text-align: center;
+    color: white;
+    }
+
+    header {
+    text-align: center;
+    }
+
+    h4 {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 40px;
+    height: 150px;
+    position: relative;
+    color: white;
+    }
+    .tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    justify-content: center;
+    justify-items: center;
+    }
+
+    footer {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .foo-t {
+    color: white;
+    }
+
+    .direc {
+    color: white;
+    margin-top: 35px;
+    }
+}

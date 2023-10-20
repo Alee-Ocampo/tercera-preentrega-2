@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  text-align: center;
+}
+
+.navbar {
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0 40px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+a:hover {
+  transition: 1s;
+  color: hotpink;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 70px;
+  height: 200px;
+  position: relative;
+  color: white;
+}
+
+.carta {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+h3 {
+  color: red;
+}
+
+.grids {
+  display: grid;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 450px 450px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.foo-t {
+  color: white;
+}
+
+.icon-uno {
+  text-align: right;
+}
+
+h6 {
+  text-align: center;
+  color: white;
+}
+
+h6 {
+  -webkit-animation: vibrate-1 0.3s infinite;
+  animation: vibrate-1 0.3s infinite;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+.gift {
+  text-align: center;
+  color: red;
+}
+
+.pedidos-ya {
+  display: block;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px 20px;
+}
+
+.nos-otros {
+  color: white;
+  padding-left: 40px;
+  text-align: center;
+}
+
+.text {
+  text-align: justify;
+}
+
+.text2 {
+  text-align: justify;
+}
+
+.nosotros1 {
+  display: flex;
+  width: 500px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nosotros2 {
+  display: flex;
+  width: 500px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.contac-h1 {
+  display: block;
+  color: red;
+}
+
+.saber-de {
+  color: white;
+}
+
+.dt-p {
+  color: white;
+}
+
+ilabel .reserva-5 {
+  text-decoration: underline;
+  color: red;
+}
+
+.reser-2 {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  h3 {
+    color: red;
+  }
+  p {
+    text-align: center;
+    color: rgb(247, 244, 244);
+  }
+  .nos-otros {
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .nosotros1, .nosotros2 {
+    display: flex;
+    text-align: center;
+  }
+  h6 {
+    text-align: center;
+    color: white;
+  }
+  header {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 40px;
+    height: 150px;
+    position: relative;
+    color: white;
+  }
+  .tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    justify-content: center;
+    justify-items: center;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .foo-t {
+    color: white;
+  }
+  .direc {
+    color: white;
+    margin-top: 35px;
+  }
+}
+@media (min-width: 320px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  header {
+    text-align: center;
+  }
+  .narbar {
+    background-color: black;
+  }
+  nav ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  h3 {
+    color: red;
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin: 30px;
+  }
+  img {
+    border-radius: 20px;
+  }
+  .text {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .nosotros1, .nosotros2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  p {
+    text-align: center;
+    color: rgb(250, 246, 246);
+  }
+  .reser-2 {
+    color: white;
+    padding: 15px;
+  }
+  .dt-p {
+    color: red;
+    padding: 10px;
+  }
+  .tarjetas {
+    grid-template-columns: 1fr;
+    margin: 10px 15px 15px 10px;
+  }
+  h6 {
+    text-align: center;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .direc {
+    color: white;
+    margin-top: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
